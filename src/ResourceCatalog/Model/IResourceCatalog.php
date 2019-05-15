@@ -17,8 +17,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['XBXZXK']
         ),
         IUserGroup::ID['XFGW'] => array(self::TYPE['TEST']),
-        IUserGroup::ID['XWXCB'] => array(),
-        IUserGroup::ID['XWMB'] => array(),
+        IUserGroup::ID['XWXCBWMB'] => array(),
         IUserGroup::ID['XWZFW'] => array(),
         IUserGroup::ID['XFY'] => array(),
         IUserGroup::ID['XJCY'] => array(),
@@ -39,6 +38,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['XJTYSB'] => array(),
         IUserGroup::ID['XHBJ'] => array(),
         IUserGroup::ID['XSWJ'] => array(),
+        IUserGroup::ID['XCGJ'] => array(),
         IUserGroup::ID['XMZJ'] => array(),
         IUserGroup::ID['XNYJ'] => array(),
         IUserGroup::ID['XWGXLJ'] => array(),

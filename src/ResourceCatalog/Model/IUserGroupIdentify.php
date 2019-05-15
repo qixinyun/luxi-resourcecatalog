@@ -6,8 +6,7 @@ interface IUserGroupIdentify
     const IDENTIFY = array(
         IUserGroup::ID['NULL'] => 'NULL',
         IUserGroup::ID['XFGW'] => 'XFGW',
-        IUserGroup::ID['XWXCB'] => 'XWXCB',
-        IUserGroup::ID['XWMB'] => 'XWMB',
+        IUserGroup::ID['XWXCBWMB'] => 'XWXCBWMB',
         IUserGroup::ID['XWZFW'] => 'XWZFW',
         IUserGroup::ID['XFY'] => 'XFY',
         IUserGroup::ID['XJCY'] => 'XJCY',
@@ -28,6 +27,7 @@ interface IUserGroupIdentify
         IUserGroup::ID['XJTYSB'] => 'XJTYSB',
         IUserGroup::ID['XHBJ'] => 'XHBJ',
         IUserGroup::ID['XSWJ'] => 'XSWJ',
+        IUserGroup::ID['XCGJ'] => 'XCGJ',
         IUserGroup::ID['XMZJ'] => 'XMZJ',
         IUserGroup::ID['XNYJ'] => 'XNYJ',
         IUserGroup::ID['XWGXLJ'] => 'XWGXLJ',
