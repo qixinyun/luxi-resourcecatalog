@@ -2,11 +2,16 @@
 namespace ResourceCatalog\Model;
 
 interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTypeIdentify, IResourceCatalogTypeEnName, IResourceCatalogTypeDoublePublicity, IResourceCatalogTypeRedBlackList
-{   
+{
     const TYPE = array(
         'NULL' => 0,
         'XBXZCF' => 1,
         'XBXZXK' => 2,
+        'SXBZXRZRR' => 3,
+        'SXBZXRJG' => 4,
+        'AJNSR' => 5,
+        'TQNMGGZ' => 6,
+        'TQSB' => 7,
         'QNWSJGR' => 8,
         'QNWSJZZ' => 9,
         'SCJRQY' => 10,
@@ -25,7 +30,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['XFGW'] => array(self::TYPE['TEST']),
         IUserGroup::ID['XWXCBWMB'] => array(),
         IUserGroup::ID['XWZFW'] => array(),
-        IUserGroup::ID['XFY'] => array(),
+        IUserGroup::ID['XFY'] => array(
+            self::TYPE['SXBZXRZRR'],
+            self::TYPE['SXBZXRJG'],
+        ),
         IUserGroup::ID['XJCY'] => array(),
         IUserGroup::ID['XGAJ'] => array(),
         IUserGroup::ID['XWXZFXXZX'] => array(),
@@ -37,7 +45,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
             self::TYPE['QGYXSXDY']
         ),
         IUserGroup::ID['XSFJ'] => array(),
-        IUserGroup::ID['XRSJ'] => array(),
+        IUserGroup::ID['XRSJ'] => array(
+            self::TYPE['TQNMGGZ'],
+            self::TYPE['TQSB'],
+        ),
         IUserGroup::ID['XZJJ'] => array(),
         IUserGroup::ID['ZGSL'] => array(),
         IUserGroup::ID['ZGBDST'] => array(),
@@ -46,7 +57,9 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['XLYJ'] => array(),
         IUserGroup::ID['XJTYSB'] => array(),
         IUserGroup::ID['XHBJ'] => array(),
-        IUserGroup::ID['XSWJ'] => array(),
+        IUserGroup::ID['XSWJ'] => array(
+            self::TYPE['AJNSR'],
+        ),
         IUserGroup::ID['XCGJ'] => array(),
         IUserGroup::ID['XMZJ'] => array(),
         IUserGroup::ID['XNYJ'] => array(self::TYPE['XZZLJ']),
