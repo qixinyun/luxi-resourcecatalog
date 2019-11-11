@@ -43,6 +43,11 @@ interface IUserGroup extends IUserGroupIdentify
         'JHLXZH' => 36,
         'GHLXZH' => 37,
         'ZHLXZH' => 38,
-        'YZYHLXZH' => 39
+        'YZYHLXZH' => 39,
+        'XWSYDWBZBGS' => 40,
+        'LXXSJJ' => 41,
+        'LXXZGH' => 42,
+        'LXXTW' => 43,
+        'XQXJ' => 44,
     );
 }

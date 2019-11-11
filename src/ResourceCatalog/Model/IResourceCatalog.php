@@ -7,6 +7,12 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'NULL' => 0,
         'XBXZCF' => 1,
         'XBXZXK' => 2,
+        'QNWSJGR' => 8,
+        'QNWSJZZ' => 9,
+        'SCJRQY' => 10,
+        'XZZLJ' => 11,
+        'QGYXJS' => 12,
+        'QGYXSXDY' => 13,
         'TEST' => 500
     );
 
@@ -26,7 +32,10 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['XZFJRB'] => array(),
         IUserGroup::ID['XCZJ'] => array(),
         IUserGroup::ID['XGXJ'] => array(),
-        IUserGroup::ID['XJYJ'] => array(),
+        IUserGroup::ID['XJYJ'] => array(
+            self::TYPE['QGYXJS'],
+            self::TYPE['QGYXSXDY']
+        ),
         IUserGroup::ID['XSFJ'] => array(),
         IUserGroup::ID['XRSJ'] => array(),
         IUserGroup::ID['XZJJ'] => array(),
@@ -40,13 +49,13 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['XSWJ'] => array(),
         IUserGroup::ID['XCGJ'] => array(),
         IUserGroup::ID['XMZJ'] => array(),
-        IUserGroup::ID['XNYJ'] => array(),
+        IUserGroup::ID['XNYJ'] => array(self::TYPE['XZZLJ']),
         IUserGroup::ID['XWGXLJ'] => array(),
         IUserGroup::ID['XZRZYJ'] => array(),
         IUserGroup::ID['XWJW'] => array(),
         IUserGroup::ID['XSWJ'] => array(),
         IUserGroup::ID['XTJJ'] => array(),
-        IUserGroup::ID['XSCJGJ'] => array(),
+        IUserGroup::ID['XSCJGJ'] => array(self::TYPE['SCJRQY']),
         IUserGroup::ID['XYJGLJ'] => array(),
         IUserGroup::ID['XZWFWGLB'] => array(),
         IUserGroup::ID['LXNSYH'] => array(),
@@ -54,7 +63,15 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['JHLXZH'] => array(),
         IUserGroup::ID['GHLXZH'] => array(),
         IUserGroup::ID['ZHLXZH'] => array(),
-        IUserGroup::ID['YZYHLXZH'] => array()
+        IUserGroup::ID['YZYHLXZH'] => array(),
+        IUserGroup::ID['XWSYDWBZBGS'] => array(),
+        IUserGroup::ID['LXXSJJ'] => array(),
+        IUserGroup::ID['LXXZGH'] => array(),
+        IUserGroup::ID['LXXTW'] => array(
+            self::TYPE['QNWSJGR'],
+            self::TYPE['QNWSJZZ']
+        ),
+        IUserGroup::ID['XQXJ'] => array(),
     );
 
     const STATUS_NORMAL = 0;

@@ -43,6 +43,11 @@ interface IUserGroupIdentify
         IUserGroup::ID['JHLXZH'] => 'JHLXZH',
         IUserGroup::ID['GHLXZH'] => 'GHLXZH',
         IUserGroup::ID['ZHLXZH'] => 'ZHLXZH',
-        IUserGroup::ID['YZYHLXZH'] => 'YZYHLXZH'
+        IUserGroup::ID['YZYHLXZH'] => 'YZYHLXZH',
+        IUserGroup::ID['XWSYDWBZBGS'] => 'XWSYDWBZBGS',
+        IUserGroup::ID['LXXSJJ'] => 'LXXSJJ',
+        IUserGroup::ID['LXXZGH'] => 'LXXZGH',
+        IUserGroup::ID['LXXTW'] => 'LXXTW',
+        IUserGroup::ID['XQXJ'] => 'XQXJ'
     );
 }
