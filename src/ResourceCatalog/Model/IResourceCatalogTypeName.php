@@ -14,7 +14,7 @@ interface IResourceCatalogTypeName
         IResourceCatalog::TYPE['TQSB'] => '拖欠社保',
         IResourceCatalog::TYPE['QNWSJGR'] => '青年五四奖个人',
         IResourceCatalog::TYPE['QNWSJZZ'] => '青年五四奖组织',
-        IResourceCatalog::TYPE['XBXZXK'] => '市场禁入企业',
+        IResourceCatalog::TYPE['SCJRQY'] => '市场禁入企业',
         IResourceCatalog::TYPE['XZZLJ'] => '县长质量奖',
         IResourceCatalog::TYPE['QGYXJS'] => '全国优秀教师',
         IResourceCatalog::TYPE['QGYXSXDY'] => '全国优秀少先队员',
