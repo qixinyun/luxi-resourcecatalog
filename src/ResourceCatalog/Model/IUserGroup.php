@@ -33,7 +33,7 @@ interface IUserGroup extends IUserGroupIdentify
         'XWGXLJ' => 26,
         'XZRZYJ' => 27,
         'XWJW' => 28,
-        'XSWJ' => 29,
+        'XSWJU' => 29,
         'XTJJ' => 30,
         'XSCJGJ' => 31,
         'XYJGLJ' => 32,
@@ -49,5 +49,8 @@ interface IUserGroup extends IUserGroupIdentify
         'LXXZGH' => 42,
         'LXXTW' => 43,
         'XQXJ' => 44,
+        'XKJJ' => 45,
+        'XRQGS' => 46,
+        'XSWGS' => 47,
     );
 }

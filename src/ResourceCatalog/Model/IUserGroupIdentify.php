@@ -33,7 +33,7 @@ interface IUserGroupIdentify
         IUserGroup::ID['XWGXLJ'] => 'XWGXLJ',
         IUserGroup::ID['XZRZYJ'] => 'XZRZYJ',
         IUserGroup::ID['XWJW'] => 'XWJW',
-        IUserGroup::ID['XSWJ'] => 'XSWJ',
+        IUserGroup::ID['XSWJU'] => 'XSWJU',
         IUserGroup::ID['XTJJ'] => 'XTJJ',
         IUserGroup::ID['XSCJGJ'] => 'XSCJGJ',
         IUserGroup::ID['XYJGLJ'] => 'XYJGLJ',
@@ -48,6 +48,9 @@ interface IUserGroupIdentify
         IUserGroup::ID['LXXSJJ'] => 'LXXSJJ',
         IUserGroup::ID['LXXZGH'] => 'LXXZGH',
         IUserGroup::ID['LXXTW'] => 'LXXTW',
-        IUserGroup::ID['XQXJ'] => 'XQXJ'
+        IUserGroup::ID['XQXJ'] => 'XQXJ',
+        IUserGroup::ID['XKJJ'] => 'XKJJ',
+        IUserGroup::ID['XRQGS'] => 'XRQGS',
+        IUserGroup::ID['XSWGS'] => 'XSWGS',
     );
 }
